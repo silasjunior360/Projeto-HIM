@@ -306,3 +306,59 @@ class AulasComponent extends HTMLElement {
 customElements.define('aulas-component', AulasComponent);
 
 
+// Adicione estas funções ao seu JavaScript existente
+
+function abrirAlmoxarifado() {
+  closeMenu();
+  document.getElementById('dashboard').style.display = 'none';
+  document.getElementById('almoxarifado_page').style.display = 'block';
+}
+
+function voltarDashboard() {
+  document.getElementById('almoxarifado_page').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+}
+
+function solicitarItem() {
+  alert('Função: Solicitar Item\nAqui você pode solicitar itens do almoxarifado.');
+  // Implementar lógica para solicitar itens
+}
+
+function devolverItem() {
+  alert('Função: Devolver Item\nAqui você pode devolver itens do almoxarifado.');
+  // Implementar lógica para devolver itens
+}
+
+function situacaoPerda() {
+  alert('Função: Situação de Perda\nAqui você pode reportar situações de perda de itens.');
+  // Implementar lógica para situações de perda
+}
+
+// As funções JavaScript permanecem as mesmas
+function abrirAlmoxarifado() {
+  closeMenu();
+  document.getElementById('dashboard').style.display = 'none';
+  document.getElementById('almoxarifado_page').style.display = 'block';
+}
+
+function voltarDashboard() {
+  document.getElementById('almoxarifado_page').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+}
+
+function solicitarItem() {
+  alert('Função: Solicitar Item\nAqui você pode solicitar itens do almoxarifado.');
+  // Implementar lógica para solicitar itens
+}
+
+function devolverItem() {
+  alert('Função: Devolver Item\nAqui você pode devolver itens do almoxarifado.');
+  // Implementar lógica para devolver itens
+}
+
+function situacaoPerda() {
+  alert('Função: Situação de Perda\nAqui você pode reportar situações de perda de itens.');
+  // Implementar lógica para situações de perda
+}
+
+// O restante do seu JavaScript permanece igual...
